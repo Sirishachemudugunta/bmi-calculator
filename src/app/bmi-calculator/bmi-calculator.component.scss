@@ -1,0 +1,20 @@
+$success-color: #28a745;
+$warning-color: #ffc107;
+$danger-color: #dc3545;
+
+.card {
+  max-width: 500px;
+  margin: auto;
+}
+
+.text {
+  &-success {
+    color: $success-color;
+  }
+  &-warning {
+    color: $warning-color;
+  }
+  &-danger {
+    color: $danger-color;
+  }
+}
