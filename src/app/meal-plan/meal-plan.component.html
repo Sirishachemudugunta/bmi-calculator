@@ -1,0 +1,14 @@
+<div class="card flex justify-center">
+    <p-fieldset legend="Breakfast" [toggleable]="true">
+        <div *ngFor="let dayPlan of mealPlan">
+            <h3>{{ dayPlan.day }}</h3>
+            <ul>
+              <li><b>Breakfast:</b> {{ dayPlan.meals.breakfast }}</li>
+              <li><b>Snack:</b> {{ dayPlan.meals.snack }}</li>
+              <li><b>Lunch:</b> {{ dayPlan.meals.lunch }}</li>
+              <li><b>Evening Snack:</b> {{ dayPlan.meals.eveningSnack }}</li>
+              <li><b>Dinner:</b> {{ dayPlan.meals.dinner }}</li>
+            </ul>
+          </div>
+    </p-fieldset>
+</div>

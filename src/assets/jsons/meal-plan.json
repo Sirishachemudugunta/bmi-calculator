@@ -1,0 +1,338 @@
+[
+  {
+    "day": "Day 1",
+    "foodType": "veg",
+    "mealType": "weight-loss",
+    "meals": {
+      "breakfast": "Vegetable Poha with peanuts and a glass of green tea.",
+      "snack": "Carrot sticks with hummus.",
+      "lunch": "Mixed vegetable curry with brown rice and cucumber salad.",
+      "eveningSnack": "Apple slices with cinnamon.",
+      "dinner": "Grilled paneer with steamed broccoli and soup."
+    }
+  },
+  {
+    "day": "Day 2",
+    "foodType": "veg",
+    "mealType": "weight-loss",
+    "meals": {
+      "breakfast": "Oats porridge with almonds and a cup of black coffee.",
+      "snack": "Cucumber slices with mint yogurt dip.",
+      "lunch": "Spinach dal with quinoa and steamed vegetables.",
+      "eveningSnack": "A handful of roasted chickpeas.",
+      "dinner": "Vegetable stir-fry with tofu and a bowl of soup."
+    }
+  },
+  {
+    "day": "Day 3",
+    "foodType": "veg",
+    "mealType": "weight-loss",
+    "meals": {
+      "breakfast": "Multigrain toast with avocado and a glass of orange juice.",
+      "snack": "Mixed fruit salad.",
+      "lunch": "Bhindi masala with chapati and a side of salad.",
+      "eveningSnack": "A small bowl of popcorn (air-popped).",
+      "dinner": "Grilled mushrooms with sautéed spinach."
+    }
+  },
+  {
+    "day": "Day 4",
+    "foodType": "veg",
+    "mealType": "weight-loss",
+    "meals": {
+      "breakfast": "Idli with coconut chutney and sambar.",
+      "snack": "A handful of almonds and walnuts.",
+      "lunch": "Vegetable khichdi with a side of curd.",
+      "eveningSnack": "A cup of herbal tea with a small fruit.",
+      "dinner": "Zucchini noodles with marinara sauce."
+    }
+  },
+  {
+    "day": "Day 5",
+    "foodType": "veg",
+    "mealType": "weight-loss",
+    "meals": {
+      "breakfast": "Besan chilla with a glass of buttermilk.",
+      "snack": "Celery sticks with peanut butter.",
+      "lunch": "Lauki sabzi with bajra roti and salad.",
+      "eveningSnack": "A small bowl of yogurt with chia seeds.",
+      "dinner": "Vegetable soup with a side of grilled tofu."
+    }
+  },
+  {
+    "day": "Day 6",
+    "foodType": "veg",
+    "mealType": "weight-loss",
+    "meals": {
+      "breakfast": "Methi paratha with curd and a cup of green tea.",
+      "snack": "A small bowl of watermelon.",
+      "lunch": "Rajma curry with brown rice and a cucumber salad.",
+      "eveningSnack": "A handful of roasted fox nuts (makhana).",
+      "dinner": "Stuffed bell peppers with a side of vegetable soup."
+    }
+  },
+  {
+    "day": "Day 7",
+    "foodType": "veg",
+    "mealType": "weight-loss",
+    "meals": {
+      "breakfast": "Smoothie bowl with mixed berries and granola.",
+      "snack": "Sliced cucumber and carrots with hummus.",
+      "lunch": "Vegetable biryani with raita.",
+      "eveningSnack": "A small bowl of roasted peanuts.",
+      "dinner": "Lentil soup with a side of steamed vegetables."
+    }
+  },
+  {
+    "day": "Day 1",
+    "foodType": "veg",
+    "mealType": "weight-gain",
+    "meals": {
+      "breakfast": "Paneer Paratha with butter and curd.",
+      "snack": "Banana Shake with peanut butter.",
+      "lunch": "Dal Makhani with steamed rice and a side of salad.",
+      "eveningSnack": "Roasted peanuts and dry fruits.",
+      "dinner": "Shahi Paneer with naan and a glass of sweet lassi."
+    }
+  },
+  {
+    "day": "Day 2",
+    "foodType": "veg",
+    "mealType": "weight-gain",
+    "meals": {
+      "breakfast": "Aloo Paratha with butter and pickle.",
+      "snack": "A handful of cashews and almonds.",
+      "lunch": "Rajma Chawal with a side of papad.",
+      "eveningSnack": "Fruit smoothie with honey.",
+      "dinner": "Vegetable biryani with raita."
+    }
+  },
+  {
+    "day": "Day 3",
+    "foodType": "veg",
+    "mealType": "weight-gain",
+    "meals": {
+      "breakfast": "Besan Chilla with curd and chutney.",
+      "snack": "A small bowl of makhana roasted in ghee.",
+      "lunch": "Palak Paneer with jeera rice and salad.",
+      "eveningSnack": "A glass of mango lassi.",
+      "dinner": "Paneer Tikka Masala with butter naan."
+    }
+  },
+  {
+    "day": "Day 4",
+    "foodType": "veg",
+    "mealType": "weight-gain",
+    "meals": {
+      "breakfast": "Upma with ghee and a glass of milk.",
+      "snack": "A small bowl of chikki.",
+      "lunch": "Chole Bhature with a side of pickle.",
+      "eveningSnack": "A glass of banana milkshake.",
+      "dinner": "Stuffed capsicum with roti and a glass of kheer."
+    }
+  },
+  {
+    "day": "Day 5",
+    "foodType": "veg",
+    "mealType": "weight-gain",
+    "meals": {
+      "breakfast": "Oats with milk, jaggery, and dry fruits.",
+      "snack": "A small bowl of yogurt with honey.",
+      "lunch": "Baingan Bharta with paratha and salad.",
+      "eveningSnack": "A handful of roasted chickpeas.",
+      "dinner": "Vegetable kofta curry with steamed rice."
+    }
+  },
+  {
+    "day": "Day 6",
+    "foodType": "veg",
+    "mealType": "weight-gain",
+    "meals": {
+      "breakfast": "Idli with ghee and coconut chutney.",
+      "snack": "A small bowl of halwa.",
+      "lunch": "Vegetable pulao with dal fry.",
+      "eveningSnack": "A glass of buttermilk with spices.",
+      "dinner": "Mutter Paneer with roti and salad."
+    }
+  },
+  {
+    "day": "Day 7",
+    "foodType": "veg",
+    "mealType": "weight-gain",
+    "meals": {
+      "breakfast": "Poori with aloo sabzi and a glass of lassi.",
+      "snack": "A small bowl of kheer.",
+      "lunch": "Vegetable biryani with raita and papad.",
+      "eveningSnack": "A glass of milk with turmeric.",
+      "dinner": "Paneer Bhurji with paratha and salad."
+    }
+  },
+  {
+    "day": "Day 1",
+    "foodType": "non-veg",
+    "mealType": "weight-loss",
+    "meals": {
+      "breakfast": "Boiled eggs with multigrain toast and masala chai.",
+      "snack": "Grilled chicken tikka slices.",
+      "lunch": "Tandoori chicken with cucumber salad.",
+      "eveningSnack": "A small bowl of sprouts chaat.",
+      "dinner": "Chicken soup with steamed vegetables."
+    }
+  },
+  {
+    "day": "Day 2",
+    "foodType": "non-veg",
+    "mealType": "weight-loss",
+    "meals": {
+      "breakfast": "Omelette with spinach and a glass of green tea.",
+      "snack": "A boiled egg with a pinch of black pepper.",
+      "lunch": "Grilled fish with brown rice and a side of salad.",
+      "eveningSnack": "A small bowl of roasted peanuts.",
+      "dinner": "Lemon herb chicken with steamed broccoli."
+    }
+  },
+  {
+    "day": "Day 3",
+    "foodType": "non-veg",
+    "mealType": "weight-loss",
+    "meals": {
+      "breakfast": "Scrambled eggs with onions and tomatoes.",
+      "snack": "Cucumber slices with tuna spread.",
+      "lunch": "Chicken curry with a small portion of brown rice.",
+      "eveningSnack": "A handful of almonds.",
+      "dinner": "Fish tikka with roasted vegetables."
+    }
+  },
+  {
+    "day": "Day 4",
+    "foodType": "non-veg",
+    "mealType": "weight-loss",
+    "meals": {
+      "breakfast": "Masala omelette with a slice of whole-grain bread.",
+      "snack": "A small bowl of yogurt with fruit.",
+      "lunch": "Grilled shrimp with a side of salad.",
+      "eveningSnack": "A handful of walnuts.",
+      "dinner": "Chicken stew with vegetables."
+    }
+  },
+  {
+    "day": "Day 5",
+    "foodType": "non-veg",
+    "mealType": "weight-loss",
+    "meals": {
+      "breakfast": "Idli with sambar and a cup of black coffee.",
+      "snack": "A small bowl of roasted chickpeas.",
+      "lunch": "Chicken biryani (small portion) with cucumber raita.",
+      "eveningSnack": "A boiled egg with green chutney.",
+      "dinner": "Grilled fish with a side of sautéed spinach."
+    }
+  },
+  {
+    "day": "Day 6",
+    "foodType": "non-veg",
+    "mealType": "weight-loss",
+    "meals": {
+      "breakfast": "Hard-boiled eggs with a slice of avocado.",
+      "snack": "A small bowl of fruit salad.",
+      "lunch": "Turkey salad with a light lemon dressing.",
+      "eveningSnack": "A small portion of chicken tikka.",
+      "dinner": "Grilled chicken breast with a side of roasted vegetables."
+    }
+  },
+  {
+    "day": "Day 7",
+    "foodType": "non-veg",
+    "mealType": "weight-loss",
+    "meals": {
+      "breakfast": "Oats with milk and a handful of dry fruits.",
+      "snack": "A boiled egg with a sprinkle of salt.",
+      "lunch": "Fish curry with a small portion of brown rice.",
+      "eveningSnack": "A handful of roasted makhana.",
+      "dinner": "Chicken soup with a side of sautéed greens."
+    }
+  },
+  {
+    "day": "Day 1",
+    "foodType": "non-veg",
+    "mealType": "weight-gain",
+    "meals": {
+      "breakfast": "Omelette with cheese and paratha.",
+      "snack": "Chicken sandwich with mayonnaise.",
+      "lunch": "Butter chicken with naan and salad.",
+      "eveningSnack": "A boiled egg with nuts.",
+      "dinner": "Grilled fish with mashed potatoes and a glass of lassi."
+    }
+  },
+  {
+    "day": "Day 2",
+    "foodType": "non-veg",
+    "mealType": "weight-gain",
+    "meals": {
+      "breakfast": "Scrambled eggs with cheese and a glass of milk.",
+      "snack": "Tandoori chicken drumsticks.",
+      "lunch": "Chicken biryani with raita.",
+      "eveningSnack": "A handful of cashews and almonds.",
+      "dinner": "Mutton curry with steamed rice."
+    }
+  },
+  {
+    "day": "Day 3",
+    "foodType": "non-veg",
+    "mealType": "weight-gain",
+    "meals": {
+      "breakfast": "Pancakes with honey and a glass of milk.",
+      "snack": "Chicken kebabs with mint chutney.",
+      "lunch": "Fish curry with steamed rice.",
+      "eveningSnack": "A boiled egg with butter toast.",
+      "dinner": "Chicken curry with paratha."
+    }
+  },
+  {
+    "day": "Day 4",
+    "foodType": "non-veg",
+    "mealType": "weight-gain",
+    "meals": {
+      "breakfast": "French toast with a glass of milk.",
+      "snack": "Chicken nuggets with a dip.",
+      "lunch": "Mutton biryani with cucumber raita.",
+      "eveningSnack": "A small bowl of kheer.",
+      "dinner": "Grilled prawns with butter garlic sauce."
+    }
+  },
+  {
+    "day": "Day 5",
+    "foodType": "non-veg",
+    "mealType": "weight-gain",
+    "meals": {
+      "breakfast": "Bagel with cream cheese and smoked salmon.",
+      "snack": "Chicken tikka with green chutney.",
+      "lunch": "Egg curry with steamed rice.",
+      "eveningSnack": "A glass of milkshake with nuts.",
+      "dinner": "Roast chicken with mashed potatoes."
+    }
+  },
+  {
+    "day": "Day 6",
+    "foodType": "non-veg",
+    "mealType": "weight-gain",
+    "meals": {
+      "breakfast": "Chicken sausage with scrambled eggs and toast.",
+      "snack": "A small bowl of halwa.",
+      "lunch": "Prawn curry with steamed rice.",
+      "eveningSnack": "A handful of roasted peanuts.",
+      "dinner": "Grilled lamb chops with mashed potatoes."
+    }
+  },
+  {
+    "day": "Day 7",
+    "foodType": "non-veg",
+    "mealType": "weight-gain",
+    "meals": {
+      "breakfast": "Pancakes with a side of bacon and maple syrup.",
+      "snack": "Chicken kebabs with naan.",
+      "lunch": "Fish fry with biryani.",
+      "eveningSnack": "A bowl of ice cream with nuts.",
+      "dinner": "Roast turkey with gravy and mashed potatoes."
+    }
+  }
+]

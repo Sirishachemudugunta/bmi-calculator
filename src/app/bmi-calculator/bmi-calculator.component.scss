@@ -1,6 +1,7 @@
-$success-color: #28a745;
-$warning-color: #ffc107;
-$danger-color: #dc3545;
+$primary: #007bff;
+$success: #28a745;
+$warning: #ffc107;
+$danger: #dc3545;
 
 .card {
   max-width: 500px;
@@ -9,12 +10,65 @@ $danger-color: #dc3545;
 
 .text {
   &-success {
-    color: $success-color;
+    color: $success;
   }
   &-warning {
-    color: $warning-color;
+    color: $warning;
   }
   &-danger {
-    color: $danger-color;
+    color: $danger;
   }
 }
+
+.gauge-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .gauge {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(
+      to right,
+      $primary 20%,
+      $success 20%,
+      $success 50%,
+      $warning 50%,
+      $warning 70%,
+      $danger 70%
+    );
+    border-radius: 100px 100px 0 0;
+    overflow: hidden;
+    margin-top: 20px;
+
+    .needle {
+      position: absolute;
+      width: 2px;
+      height: 100px;
+      background: black;
+      top: 50%;
+      left: 50%;
+      transform-origin: bottom center;
+      transition: transform 1s ease-out;
+    }
+
+    .gauge-labels {
+      position: absolute;
+      top: 110%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      color: #333;
+    }
+  }
+}
+
+::ng-deep {
+  .p-treeselect-panel {
+    position: absolute !important;
+    z-index: 1050; /* Ensure it's above other elements */
+  }
+}
+

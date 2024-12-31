@@ -1,0 +1,14 @@
+canvas {
+  width: 987px;
+  height: 263px;
+}
+  .chartCard {
+    width: 100vw;
+    height: auto;
+    max-height: 500px;
+    background: rgba(54, 162, 235, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }  

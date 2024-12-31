@@ -1,0 +1,18 @@
+<div class="carousel-container">
+  <div class="carousel">
+    <div class="carousel-item" *ngFor="let item of carouselItems; let i = index" [class.active]="i === currentIndex">
+      <h3>{{ item.day }}</h3>
+      <ul>
+        <li><strong>Breakfast:</strong> {{ item.meals.breakfast }}</li>
+        <li><strong>Snack:</strong> {{ item.meals.snack }}</li>
+        <li><strong>Lunch:</strong> {{ item.meals.lunch }}</li>
+        <li><strong>Evening Snack:</strong> {{ item.meals.eveningSnack }}</li>
+        <li><strong>Dinner:</strong> {{ item.meals.dinner }}</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Navigation Buttons -->
+  <button (click)="prevSlide()">Prev</button>
+  <button (click)="nextSlide()">Next</button>
+</div>
