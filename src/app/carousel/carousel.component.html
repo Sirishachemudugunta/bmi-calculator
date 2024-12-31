@@ -1,18 +1,21 @@
-<div class="carousel-container">
-  <div class="carousel">
-    <div class="carousel-item" *ngFor="let item of carouselItems; let i = index" [class.active]="i === currentIndex">
-      <h3>{{ item.day }}</h3>
-      <ul>
-        <li><strong>Breakfast:</strong> {{ item.meals.breakfast }}</li>
-        <li><strong>Snack:</strong> {{ item.meals.snack }}</li>
-        <li><strong>Lunch:</strong> {{ item.meals.lunch }}</li>
-        <li><strong>Evening Snack:</strong> {{ item.meals.eveningSnack }}</li>
-        <li><strong>Dinner:</strong> {{ item.meals.dinner }}</li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- Navigation Buttons -->
-  <button (click)="prevSlide()">Prev</button>
-  <button (click)="nextSlide()">Next</button>
+<div class="card">
+  <p-treetable [value]="files" [scrollable]="true" [tableStyle]="{'min-width':'50rem'}">
+      <ng-template #header>
+          <tr>
+              <th>Name</th>
+              <th>Quantity</th>
+              <th>Time</th>
+          </tr>
+      </ng-template>
+      <ng-template #body let-rowNode let-rowData="rowData">
+          <tr [ttRow]="rowNode">
+              <td>
+                  <p-treeTableToggler [rowNode]="rowNode" />
+                  {{ rowData.name }}
+              </td>
+              <td>{{ rowData.quantity }}</td>
+              <td>{{ rowData.time }}</td>
+          </tr>
+      </ng-template>
+  </p-treetable>
 </div>
