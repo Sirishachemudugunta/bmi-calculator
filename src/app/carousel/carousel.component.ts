@@ -5,6 +5,11 @@ import { ImportsModule } from '../imports';
 import { TreeNode } from 'primeng/api';
 
 
+interface Column {
+  field: string;
+  header: string;
+}
+
 @Component({
   selector: 'app-carousel',
   standalone: true,
@@ -19,6 +24,7 @@ export class CarouselComponent implements OnChanges {
   @Input() mealType: string = '';
 
   files!: TreeNode[];
+  cols!: Column[];
 
   carouselItems: any[] = [];
   responsiveOptions: any[] = [];
@@ -30,6 +36,11 @@ export class CarouselComponent implements OnChanges {
   ngOnInit(): void {
     console.log('From carousel component food type:', this.foodType);
     console.log('From carousel component meal type:', this.mealType);
+    this.cols = [
+      { field: 'name', header: 'Name' },
+      { field: 'quantity', header: 'Quantity' },
+      { field: 'time', header: 'Time' }
+  ];
   }
 
   ngOnChanges(changes: SimpleChanges): void {

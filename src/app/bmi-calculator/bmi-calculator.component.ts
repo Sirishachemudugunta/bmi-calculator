@@ -73,19 +73,14 @@ export class BmiCalculatorComponent {
   }
 
   onFoodTypeChange(event: any): void {
-    // Ensure you're accessing the 'data' property of the selected node
     this.selectedFoodType = this.selectedNodes ? this.selectedNodes.data : '';
-    console.log('Selected Food Type:', this.selectedFoodType);
-  
     if (this.bmi !== null) {
       this.selectedMealType = this.getMealType(this.bmi);
     } else {
       this.selectedMealType = '';
     }
-    console.log('Selected Food Type:', this.selectedMealType);
     if (this.selectedFoodType) {
-      this.showCarouselCard = true; // Ensure this is set to true
-      console.log(`show card value is ${this.showCarouselCard}`);
+      this.showCarouselCard = true;
     }
   }
 
